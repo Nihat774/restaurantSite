@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.umumi{
+    width: 35vw;
+    /* background-color: blue; */
+    margin-left: 50px;
+    transition-duration: 3s;
+    transition-delay: 3s;
+  
+}
+.header{
+    /* background-color: rgb(23, 233, 41); */
+    text-align: center;
+    margin: 0px 35% 20px 35%;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.photo{
+    border-radius: 10px;
+
+}
+.photo:hover{
+    width: 27vw;
+    height: 37vh;
+}
+h1{
+    color: rgb(0, 0, 0);
+    margin:10px 0px 0px 10px;
+}
+.phead{
+    /* background-color: blueviolet; */
+    /* margin: 15px 35% 15px 35%; */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    padding: 15px;
+}
+.user-icon{
+    height: 24px;
+    margin-top: 4px;
+}
+.icon{
+    height: 15px;
+    margin-top: 5px;
+    border-radius: 50%;
+}
+.icon:active{
+    background-color: brown;
+}
+.name{
+    margin-left: 5px;
+    font-size:25px;
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.date{
+    font-size: 18px;
+    margin-top: 4px;
+}
+.username{
+    display: flex;
+    margin-top: 10px ;
+    margin-bottom: 10px;
+}
+.like-comment{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.food-header{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: blueviolet; */
+    width: 26.5vw;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+span{
+    margin-top: 0%;
+    margin-left: 3px;
+    font-size: 20px;
+}
+.about-bold{
+    /* background-color: brown; */
+    width: 20vw;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.about-simple{
+    /* background-color: aqua; */
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 15px;
+    width: 25vw;
+    font-size: 15px;
+}
+hr{
+    width: 26.5vw;
+}
